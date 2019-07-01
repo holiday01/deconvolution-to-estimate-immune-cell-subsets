@@ -26,7 +26,7 @@ plt.legend(loc='center left', bbox_to_anchor=(1.0, 0.5))
 plt.suptitle("Flow&Estimate")
 plt.rcParams['figure.figsize'] = (6.69,8.86)
 plt.rcParams['figure.dpi'] = 300
-name = "4.bar.pdf"
+name = "bar.pdf"
 plt.savefig(name,bbox_inches="tight" )
 plt.close()
 plt.boxplot(score_adj.T,patch_artist = True)
@@ -34,7 +34,7 @@ plt.suptitle("Flow&Estimate")
 plt.xticks(range(8), im_name)
 plt.rcParams['figure.figsize'] = (6.69,8.86)
 plt.rcParams['figure.dpi'] = 300
-name = "5.boxplot.pdf"
+name = "boxplot.pdf"
 plt.savefig(name)
 
 score_adj.to_csv("score.csv")
