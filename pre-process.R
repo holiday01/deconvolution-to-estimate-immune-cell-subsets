@@ -15,7 +15,7 @@ length(unique(sample_fi[,1]))
 sample_fi <- rbind(sample[hc,],sample_fi)
 length(unique(sample_fi[,1]))
 
-MF <- read.csv("Reference.csv")
+MF <- read.csv("Pre.reference.csv")
 ## select genes both in sample matrix and reference matrix ====
 im_ref <- MF[which(MF[,1]%in%sample_fi[,1]),]
 sample_ref <- sample_fi[which(sample_fi[,1]%in%im_ref[,1]),]
