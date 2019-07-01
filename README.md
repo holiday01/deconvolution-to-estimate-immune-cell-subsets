@@ -1,2 +1,11 @@
 # Deconvolution-based-on-SVR
-This is a tools to estimate the fraction of immune cells. 
+The method was created and based on the citation "Deconvolution of bulk gene expression profiles from complex tissues to quantify the subsets of immune cells".
+The tool is to estimate the fraction of immune cells. Immune cells contain CD8 T cells, CD4 T cells, alternatively activated macrophages, classically activated macrophages, Regulatory T cells, T helper cells, Natural killer ells, Dendritic cells.
+
+# Requirements
+R
+python 3
+
+# Tutorial
+
+The `Reference.csv`
