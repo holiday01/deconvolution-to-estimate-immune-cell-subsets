@@ -13,6 +13,7 @@ The gene in `Pre.reference.csv` is in order to estimate the fraction of immune c
 ## Run
 
     Rscript pre-process.R -i "input data name"
+    
     python SCORE.py
 
 ## Contribution
