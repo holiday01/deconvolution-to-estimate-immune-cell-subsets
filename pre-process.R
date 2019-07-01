@@ -1,5 +1,13 @@
 ## sample data
-sample <- read.delim("input.data")
+library(getopt)
+arg = getopt(matrix(c(
+'input', 'i', 1, "character"
+), byrow=TRUE, ncol=4))
+
+
+input <- arg$input
+
+sample <- read.delim(input)
 length(unique(sample[,1]))
 
 h <- apply(sample[,-1], 1, mean)
