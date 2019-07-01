@@ -8,4 +8,4 @@ python 3
 
 # Tutorial
 
-The `Reference.csv`
+The gene in `Pre.reference.csv` is in order to estimate the fraction of immune cells. Before analysis you might run `pre-process.R`, it deal with duplicate genes in the input data. The ``pre-process.R` and `Reference.csv` are provided by `pre-process.R`. 
