@@ -17,9 +17,11 @@ Before starting the cell deconvolution analysis, the input expression profiles w
 
 After running `SCORE.py`, three output files will be generated, including `score.csv`, `bar.pdf` and `boxplot.dpf`. `score.csv` provides the inferred fractions of the 8 types of immune cells. `bar.pdf` and `boxplot.pdf` provide the visualization of the inferred cell fractions.
 
-## Run
+In order to allow for a quick trial of this method by the users, we provide an example file, `example_expression_profile.csv`, which can be used as the input file to infer the cell composition in the sample.
 
-    Rscript pre-process.R -i "file name of our raw data"
+## Synopsis
+
+    Rscript pre-process.R -i "file name of our raw data" # you may try our `example_expression_profile.csv`
     python SCORE.py
 
 ## Contribution
