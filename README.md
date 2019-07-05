@@ -1,4 +1,4 @@
-# Estimate the fraction of immune cells
+# Estimate the fractions of immune cells from expression profiles of tissues
 
 This method is created as described in the manuscript - "Deconvolution of bulk gene expression profiles from complex tissues to quantify subsets of immune cells".
 
