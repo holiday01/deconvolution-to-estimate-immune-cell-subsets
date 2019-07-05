@@ -2,7 +2,7 @@
 
 This method is created as described in the manuscript - "Deconvolution of bulk gene expression profiles from complex tissues to quantify subsets of immune cells".
 
-The tool is designed to estimate the fractions of immune cells from the expression profiles of tissues, such as tumor masses, PBMCs, etc. The 8 immune cells treated in this method include naive CD8 T cells, naive CD4 T cells, alternatively activated macrophages, classically activated macrophages, regulatory T cells, T helper cells, natural killer cells, and dendritic cells.
+The tool is designed to estimate the fractions of immune cells from the expression profiles of tissues, such as tumor masses, PBMCs, etc. The 8 immune cells treated in this method include naïve CD8 T cells, naïve CD4 T cells, alternatively activated macrophages, classically activated macrophages, regulatory T cells, T helper cells, natural killer cells, and dendritic cells.
 
 # Requirements
 
