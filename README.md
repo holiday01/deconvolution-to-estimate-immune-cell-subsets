@@ -24,6 +24,6 @@ In order to allow for a quick trial of this method by the users, we provide an e
     Rscript pre-process.R -i "file name of our raw data" # you may try our `example_expression_profile.csv`
     python SCORE.py
 
-## Contribution
+# Contribution
 
    Yen-Jung Chiu (Holiday01) and Yen-Hua Huang created this method. Holiday01 implemented the code. 
