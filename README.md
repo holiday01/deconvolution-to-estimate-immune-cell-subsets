@@ -27,3 +27,7 @@ In order to allow for a quick trial of this method by the users, we provide an e
 # Contribution
 
    Yen-Jung Chiu (holiday01) and Yen-Hua Huang created this method. holiday01 implemented the code. 
+
+# Reference
+
+Chiu, Y., Hsieh, Y. & Huang, Y. Improved cell composition deconvolution method of bulk gene expression profiles to quantify subsets of immune cells. BMC Med Genomics 12, 169 (2019) doi:10.1186/s12920-019-0613-5
