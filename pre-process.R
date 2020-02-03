@@ -10,9 +10,9 @@ sample <- read.csv(input)
 length(unique(sample[,1]))
 if(dim(sample)[2]<3){
   h <- sample[,2]
+  print("One sample")
 }else{
   h <- apply(sample[,-1], 1, mean)
-  print("One sample")
 }
 
 names(h) <- seq(1,length(sample[,1]),1)
