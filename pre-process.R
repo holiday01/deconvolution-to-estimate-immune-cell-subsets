@@ -6,11 +6,14 @@ arg = getopt(matrix(c(
 
 
 input <- arg$input
-
-sample <- read.delim(input)
+sample <- read.csv(input)
 length(unique(sample[,1]))
-
-h <- apply(sample[,-1], 1, mean)
+if(dim(sample)[2]<3){
+  h <- sample[,2]
+}else{
+  h <- apply(sample[,-1], 1, mean)
+}
+print("1")
 names(h) <- seq(1,length(sample[,1]),1)
 hc <- {}
 for(n in 1:length(as.character(unique(sample[which(duplicated(sample[,1])=="TRUE"),1])))){
