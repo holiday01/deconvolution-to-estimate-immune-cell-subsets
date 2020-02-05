@@ -37,7 +37,7 @@ for(m in 2:dim(sample)[2]){
   
 }
 if(dim(sample)[2]>2){sample_out <- cbind(as.character(sample_ref[,1]),sample_out)}
-
+colnames(sample_out) <- c("gene",colnames(sample)[-1])
 write.csv(im_ref,"Reference.csv",row.names = F)
 write.csv(sample_out,"Sample.csv",row.names = F)
 
