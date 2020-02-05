@@ -4,6 +4,8 @@ This method is created as described in the manuscript - "Deconvolution of bulk g
 
 The tool is designed to estimate the fractions of immune cells from the expression profiles of tissues, such as tumor masses, PBMCs, etc. The 8 immune cells treated in this method include naïve CD8 T cells, naïve CD4 T cells, alternatively activated macrophages, classically activated macrophages, regulatory T cells, T helper cells, natural killer cells, and dendritic cells.
 
+Fixed. Now redundant  records for each gene will be removed, and only the record with the￼ higher value will be taken for the cell composition deconvolution. (05/02/2020)
+
 # Requirements
 
 * R
