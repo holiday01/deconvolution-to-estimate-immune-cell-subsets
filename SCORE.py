@@ -7,7 +7,7 @@ import random
 from matplotlib.pyplot import figure
 test_data = pd.read_csv("Sample.csv")
 reference = pd.read_csv("Reference.csv")
-train = reference.drop("Gene",1)
+train = reference.drop("MF_name",1)
 test_data = test_data.drop("gene",1)
 
 score_adj = []
